@@ -1,0 +1,262 @@
+body {
+  padding-top: 0; 
+}
+
+#banner {
+  position: relative;
+  height: 50vh; 
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.navbar-brand-color {
+  color: #228B22 !important; 
+  font-family: 'DM Sans', sans-serif;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./Imagenes/fondo-inicio.jpg);
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.banner-content {
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-container {
+  width: 280px; 
+  padding-top: 110px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.logo-text {
+  margin-top: 10px;
+}
+
+
+
+.section {
+  padding: 0; 
+}
+
+
+
+.capacity-section {
+  background-color: #fdf9f9; /* Color de fondo */
+  padding: 20px 0; /* Ajuste del padding para centrar las líneas */
+  text-align: center,
+}
+
+.capacity-container {
+  margin-bottom: 0px;
+  margin-left: 30px;
+  text-align: left; /* Justifica el texto desde la izquierda */
+
+}
+
+.counter-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.counter-container img {
+  width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+}
+
+.counter {
+  font-size: 20px; /* Tamaño del contador */
+  font-weight: bold;
+  color: #228B22; /* Color del número */
+  display: inline-block; /* Coloca el número en la misma línea */
+}
+
+.counter-label {
+  display: inline-block; /* Coloca las palabras en la misma línea */
+  margin-top: 2px; /* Espaciado superior entre las palabras y los números */
+  font-size: 20px; /* Tamaño del contador */
+  font-weight: bold;
+  color: #228B22; /* Color del número */
+}
+
+.info-label {
+  display: inline-block; /* Coloca las palabras en la misma línea */
+  margin-top: 2px; /* Espaciado superior entre las líneas de información */
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .counter {
+    font-size: 16px; /* Ajusta el tamaño del contador en dispositivos móviles */
+  }
+  .counter-label {
+  
+    font-size: 15px; /* Tamaño del contador */
+   
+  }
+  .info-label {
+    display: inline-block; /* Coloca las palabras en la misma línea */
+    margin-top: 2px; /* Espaciado superior entre las líneas de información */
+    font-weight: bold;
+    font-size: 11px;
+  }
+}
+
+
+#sobre-nosotros {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center ;
+  margin-right: 30px !important;
+
+}
+
+.sobre-nosotrosfont {
+  color: #228B22;
+}
+
+
+
+
+
+.map-container {
+  width: 60%;
+  margin: 0 auto; 
+  padding-bottom: 40%; 
+  margin-top: 20px;
+  position: relative;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .map-container {
+    width: 60%;
+    margin: 0 auto; 
+    padding-bottom: 80%; 
+    margin-top: 15px;
+    position: relative;
+  }
+
+  #client-logo {
+    max-width: 80%; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    overflow: hidden; /* Evita que el carrusel se extienda más allá de los límites del contenedor */
+  }
+}
+
+
+
+.footer {
+  background-color: #f0f0f0; 
+  padding: 15px 0;
+  color: #228B22; 
+  margin-top: 50px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px; 
+}
+
+.btn-contact, .btn-work {
+  color: #228B22;
+  padding: 10px 20px;
+  margin: 10px 0px 0 0px;
+}
+
+.btn-contact:hover, .btn-work:hover {
+  color: #fff;
+  background-color: #228B22;
+}
+
+.logoFooter p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+.client-logos {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.client-logos img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 15px;
+}
+
+#client-logo {
+  width: 800px;
+  display: flex;
+  flex-direction: row; /* Cambiado de columna a fila */
+  justify-content: center;
+  margin: 0 auto; /* Añadido para centrar el contenedor horizontalmente */
+}
+
+#client-logo .clienteimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0; /* Ajustado a cero el margen entre las imágenes */
+}
+
+#client-logo .clienteimg img {
+  width: 150px; /* Ajusta el ancho deseado para todas las imágenes */
+  height: 70px; /* Ajusta la altura deseada para todas las imágenes */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px; /* Puedes ajustar este valor según sea necesario */
+  margin-top: 120px;
+}
