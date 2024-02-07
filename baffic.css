@@ -128,7 +128,7 @@ body {
     display: inline-block; /* Coloca las palabras en la misma línea */
     margin-top: 2px; /* Espaciado superior entre las líneas de información */
     font-weight: bold;
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
