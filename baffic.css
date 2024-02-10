@@ -174,11 +174,9 @@ body {
     padding-bottom: 80%; 
     margin-top: 15px;
     position: relative;
-    margin-bottom: 20px;
   }
   .map-container iframe {
-    margin: 0;
-    width: 350px;
+    width: 330px;
     height: 400px;
   }
 
