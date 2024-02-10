@@ -169,14 +169,16 @@ body {
 @media (max-width: 576px) {
   .map-container {
     width: 80%;
+    height: 100%;
     margin: 0 auto; 
     padding-bottom: 80%; 
     margin-top: 15px;
     position: relative;
+    margin-bottom: 20px;
   }
   .map-container iframe {
     margin: 0;
-    width: 400px;
+    width: 350px;
     height: 400px;
   }
 
