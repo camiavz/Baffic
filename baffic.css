@@ -175,7 +175,7 @@ body {
     position: relative;
   }
   .map-container iframe {
-    width: 100%;
+    width: 310px;
     height: 100%;
   }
 
