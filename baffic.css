@@ -166,13 +166,17 @@ body {
   height: 100%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .map-container {
     width: 80%;
     margin: 0 auto; 
     padding-bottom: 80%; 
     margin-top: 15px;
     position: relative;
+  }
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
   }
 
   #client-logo {
