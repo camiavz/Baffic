@@ -134,3 +134,10 @@ font-family: 'Georgia', sans-serif !important;
     overflow: hidden; /* Evita que el carrusel se extienda más allá de los límites del contenedor */
   }
 }
+
+
+span[data-mce-no-link="1"] {
+  color: inherit;
+  text-decoration: none;
+  cursor: text;
+}
