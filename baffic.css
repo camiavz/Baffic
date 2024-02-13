@@ -1,5 +1,7 @@
 body {
   padding-top: 0; 
+  font-family: 'Georgia', sans-serif;
+
 }
 
 #banner {
@@ -71,7 +73,6 @@ body {
 }
 
 
-
 .capacity-section {
   background-color: #fdf9f9; /* Color de fondo */
   padding: 20px 0; /* Ajuste del padding para centrar las líneas */
@@ -132,7 +133,6 @@ body {
   }
 }
 
-
 #sobre-nosotros {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -143,11 +143,13 @@ body {
 }
 
 .sobre-nosotrosfont {
-  color: #228B22;
+  color: #222;
+  
 }
+.texto-sn{
+  color: #555 !important;
 
-
-
+}
 
 
 .map-container {

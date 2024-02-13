@@ -1,6 +1,6 @@
 body {
-    font-family: 'Georgia', sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Georgia', sans-serif !important;
+    background-color: #fcfdfd;
     margin: 0;
     padding: 0;
   }
@@ -16,7 +16,6 @@ body {
 
   h2 {
     text-align: center;
-    color: #28a745; /* Verde principal */
   }
 
   .form-group {
@@ -24,20 +23,25 @@ body {
   }
 
   label {
-    font-weight: bold;
-    color: #218838; /* Verde oscuro para etiquetas */
+    color: #555;
+    font-family: 'Georgia', sans-serif !important;
+
   }
 
-  input, textarea {
-    border: 1px solid #28a745; /* Borde verde para campos de entrada */
+  input {
+    border: 1px solid #555;
+    font-family: 'Georgia', sans-serif !important;
+
   }
+
+
+  
 
   textarea {
     resize: vertical;
   }
 
   button {
-    background-color: #28a745; /* Verde principal para el botón */
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -45,6 +49,6 @@ body {
     cursor: pointer;
   }
 
-  button:hover {
-    background-color: #218838; /* Verde oscuro al pasar el ratón por encima */
-  }
+.container-footer{
+  background-color: #ececec;
+}
