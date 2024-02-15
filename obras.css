@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 
 .owl-carousel img {
@@ -37,6 +38,8 @@ body {
   margin: 0;
   color: #555 !important;
     font-family: 'Georgia', sans-serif !important;
+    text-decoration: none !important;
+
 
 
 }
@@ -136,8 +139,3 @@ font-family: 'Georgia', sans-serif !important;
 }
 
 
-span[data-mce-no-link="1"] {
-  color: inherit;
-  text-decoration: none;
-  cursor: text;
-}
